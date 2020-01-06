@@ -38,7 +38,7 @@ public class SpawnerGiveCommand implements CommandExecutor {
         wrongCommand = config.getString("spawnergive.wrong-command");
         noExists = config.getString("spawnergive.no-exists");
         wrongAmount = config.getString("spawnergive.wrong-amount");
-        inventoryFull = config.getString("spawnergive.insufficient-space");
+        inventoryFull = config.getString("spawnergive.inventory-full");
         invalidType = config.getString("spawnergive.invalid-type");
         mobNameColor = config.getString("mob-name-color");
         lore = config.getStringList("lore");
